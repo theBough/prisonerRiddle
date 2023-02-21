@@ -6,6 +6,7 @@ function makeButtons(){
     btn.setAttribute("type", "button");
     btn.setAttribute("id",i);
     grid.appendChild(btn);
+    document.getElementById(i).innerHTML = i+1;
   }//end loop
   
   
