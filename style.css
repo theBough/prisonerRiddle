@@ -1,7 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#1B4332 ;
+  color:#D8F3DC;
+  text-align: center;
+}
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-  background-color: #2997ff;
+  background-color: #2D6A4F;
   padding: 1px;
   width: 620px;  
 }
@@ -9,9 +18,9 @@
 button{
   height: 60px;
   width: 60px;
-  background-color: #00ffe1;
+  background-color: #95D5B2;
   font-size: 20px;
-  color: #000000;
+  color: #081C15;
   text-align: center;
   display: inline-block;
 }
