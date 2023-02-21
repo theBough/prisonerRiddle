@@ -1,0 +1,17 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  background-color: #2997ff;
+  padding: 1px;
+  width: 620px;  
+}
+
+button{
+  height: 60px;
+  width: 60px;
+  background-color: #00ffe1;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  display: inline-block;
+}
