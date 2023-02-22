@@ -1,12 +1,12 @@
 var grid =  document.getElementById("theGrid");
 
 function makeButtons(){
-  for(i=0 ; i<10 ; i++){
+  for(i=0 ; i<100 ; i++){
     var btn = document.createElement("button");
     btn.setAttribute("type", "button");
     btn.setAttribute("id",i);
     grid.appendChild(btn);
-    document.getElementById(i).innerHTML = i+1;
+    document.getElementById(i).innerHTML = i+1
   }//end loop
   
   
