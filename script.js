@@ -13,8 +13,12 @@ function makeButtons(){
   }//end loop
 }//end makeButtons
 function fillArray(){
-  var rndNum = Math.random()*100;
-  rndNum = Math.ceil(rndNum);
-  randomNumbers.push(rndNum);
+  while(randomNumbers.length < 99){
+    var rndNum = Math.random()*100;
+    rndNum = Math.ceil(rndNum);
+    if(!randomNumbers.includes(rndNum)){
+      randomNumbers.push(rndNum);
+    }
+  }//end loop
   console.log(randomNumbers)
 }
